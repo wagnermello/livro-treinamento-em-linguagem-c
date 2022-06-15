@@ -8,16 +8,16 @@ int main()
 {
 
     int x, r;
-    printf("\nDigite um número de até 4 algarismos: ");
+    printf("\nDigite um número de até 4 algarismos:  ");
     scanf("%d", &x);
     r = 19998 + x;
     printf("\nO resultado da soma é: %d", r);
 
-    printf("\nDigite o segundo número: ");
+    printf("\nDigite o segundo número:  ");
     scanf("%d", &x);
     printf("\nO meu número é %d", 9999 - x);
 
-    printf("\nDigite o quarto número: ");
+    printf("\nDigite o quarto número:  ");
     scanf("%d", &x);
     printf("\n O meu número é %d\n", 9999 - x);
 
